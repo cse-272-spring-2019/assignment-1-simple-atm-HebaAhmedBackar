@@ -93,7 +93,7 @@ public class History {
           
                mon =transactions.getArr();
                int i =transactions.getPoint();
-                if (i<=9){
+                if (i<=5){
                 i++;
                 transactions.setPoint(i);
                 prev.setText(mon[i]);
